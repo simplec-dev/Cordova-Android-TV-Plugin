@@ -2,7 +2,7 @@
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
 xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.simplec.plugins.androidtvplugin"
-    version="1.0.8">
+    version="1.0.9">
 	
 	<name>AndroidTVPlugin</name>
     <description>Cordova Android TV Plugin</description>
@@ -40,6 +40,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 		<uses-feature android:name="android.hardware.usb.accessory" android:required="false" />
 		
 		<uses-feature android:name="android.hardware.telephony" android:required="false" />
+		
+		<uses-feature android:name="android.hardware.vibrate" android:required="false" />
 		<!-- <uses-feature android:name="android.hardware.gamepad" android:required="false"/> -->
     </config-file>
 
